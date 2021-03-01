@@ -1,0 +1,96 @@
+body{
+    background-color: #04A1BF;
+    text-align: center;
+}
+
+#error{ 
+    display: none;
+    color: white;
+    padding: 1px;
+    background-color: #EF5350;
+}
+
+.heading{
+    font-size: 40px;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: white;
+}
+
+p{
+    font-family: 'PT Sans', sans-serif;
+    font-weight: bold;
+}
+
+p:nth-child(3n){
+    color: yellow;
+}
+
+
+p:nth-child(3n+1){
+    color: lawngreen;
+}
+
+form{
+    margin:0 auto;
+    margin-top: 40px;
+    width: 100%;
+    display: inline-flex;
+    justify-content: center;
+}
+
+#workText{
+    width: 40%;
+    height: 40px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    text-indent: 15px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 12px;
+}
+
+#addWork{
+    height: 40px;
+    border: none;
+    outline: none;
+    width: 55px;
+    border-radius: 20%;
+    background-color: #15809e;
+    transition: all 0.5s ease;
+}
+
+#addwork:hover{
+    color: #e8c307;
+    cursor: pointer;
+    background-color: #0ac2f5;
+}
+
+.material-icons {
+    vertical-align: middle;
+}
+
+.delete-button{
+    text-align: right;
+}
+
+li{
+    margin:0 auto;  
+    padding: 10px 5px;
+    width: 30%;
+    margin-bottom: 10px;
+    background-color: #66d4ff;
+    border: none;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-radius: 5px;
+    transition: all 0.5s ease;
+    color: white;
+}
+
+li:hover{
+    background-color: #5cb85c;
+    cursor: pointer;
+}
+
+ul{
+    list-style-type: none;
+}
